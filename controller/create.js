@@ -22,7 +22,7 @@ exports.addUser = (req, res, next) => {
         fs.readFile(filePath, 'utf-8', (err, data) => {
             if (err) {
                 return res.json({ msg: 'Error occured' });
-            } else if (data.length === 0) {
+            } else if (data.length === 0 || JSON.parse(data) === " ") {
                 writeHandler(memberArr, newUser, res);
             } else {
                 const parsedData = JSON.parse(data);
@@ -46,6 +46,6 @@ const writeHandler = (memberArr, newUser, res) => {
             return res.json({ msg: 'Error occured.' });
         }
 
-    })
+    });
     res.json(memberArr);
 };
