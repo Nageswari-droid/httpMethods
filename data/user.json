@@ -1,8 +1,33 @@
 [{
-    "uuid_id": "31468d04-8d71-440d-a3f1-e107f7c25941",
-    "id": 1,
-    "name": "Stephen",
-    "email": "steve_12@gmail.com",
-    "age": 24,
-    "hobby": ["Dancing", "cooking"]
-}]
+        "uuid_id": "31468d04-8d71-440d-a3f1-e107f7c25941",
+        "id": 1,
+        "name": "Stephen",
+        "email": "steve_12@gmail.com",
+        "age": 24,
+        "hobby": ["Dancing", "cooking"]
+    },
+    {
+        "uuid_id": "1ebf2df9-10d8-4374-829c-59217da153c1",
+        "id": 2,
+        "name": "Steve",
+        "email": "stevejonas@gmail.com",
+        "age": 21,
+        "hobby": ["reading"]
+    },
+    {
+        "uuid_id": "c170adfa-07e6-4a8c-8c64-4372e1535168",
+        "id": 3,
+        "name": "Jonas",
+        "email": "youandiareperfecttogether@gmail.com",
+        "age": 40,
+        "hobby": ["Time travelling", "wandering"]
+    },
+    {
+        "uuid_id": "5123c913-5911-43c1-82be-b7a5982ef51d",
+        "id": 4,
+        "name": "Eva",
+        "email": "killadamworld@gmail.com",
+        "age": 40,
+        "hobby": ["Time travelling", "Killing"]
+    }
+]
